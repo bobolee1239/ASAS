@@ -79,7 +79,7 @@ __Example__
 >>> from madmom.features.beats import RNNBeatProcessor
 >>> from madmom.models import BEATS_LSTM
 >>> processor = RNNBeatProcessor(nn_files = [BEAT_LSTM[0]])
-<madmom.features.beats.RNNBeatProcessor object at 0x...>
+<madmom.features.beats.RNNBeatProcessor object at 0x1269e55c7>
 >>> processor('./song.wav') ## fps = 100
 array([0.037, 0.024, 0.003, ... 0.005], dtype=float32)
 ```
