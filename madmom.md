@@ -127,7 +127,8 @@ array([0.41, 0.98, 1.56, 2.12, 2.7 , 3.27, 3.84, 4.41, 4.99, 5.56, 6.13,
 
 ## Q n A
 1. Why class instance callable ?
-3. Why is it important to assign a correct <b>fps</b> while calling _DBNBeatTrackingProcessor_?
+2. Why is it important to assign a correct <b>fps</b> while calling _DBNBeatTrackingProcessor_?
+3. Who is the man in the photo ?  
 
 ---
 
