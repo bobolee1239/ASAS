@@ -1,6 +1,11 @@
 # [ASAS] madmom
 An audio signal processing library in Python with strong focus on MIR tasks.
 
+<figure>
+  <figcaption align="right">組長 陳玟詮</figcaption>
+  <img alt="C.W.C" src="https://scontent-tpe1-1.xx.fbcdn.net/v/t34.18173-12/26754357_1995601330457755_1492089480_n.jpg?_nc_cat=0&_nc_eui2=AeG1Iy1gTI-NW0G926Cagf_rl3l66f-sp0sUgE_A0K5XbSDG7WIiQT0T56O-hxkTj6ksA39Ym42HIakgCCvCya_Pl7EcwnHD_FawTR4TGTfyxQ&oh=2e42efd04cf0c99d748c27fa860738e5&oe=5AF7B7D8" width=100 height = 150 align=right border=2.5 >
+</figure>
+
 __Advantages:__
 <ul>
 <li> easy to use </li>
@@ -20,6 +25,7 @@ __Prerequisites:__
 * cython >= 0.25
 * nose
 * pyaudio
+* ffmpeg
 
 __Pip Install:__
 ```console
@@ -32,6 +38,8 @@ If you installed package locally, the programs will be copied to a folder which 
  $ echo "export PATH=<path/to/scripts>:$PATH" > ~/.bashrc
 ```
 
+<b><a href="https://download.microsoft.com/download/5/f/7/5f7acaeb-8363-451f-9425-68a90f98b238/visualcppbuildtools_full.exe?fixForIE=.exe.">Visual Studio</a></b> for Windows users. (Big S/O to Jenna Kang)
+
 ---
 
 ## HW1 by madmom
@@ -40,8 +48,8 @@ If you installed package locally, the programs will be copied to a folder which 
 2 import matplotlib.pyplot as plt
 3 signal = madmom.audio.signal.Signal('Rolling in the deep_10s.wav')
 4 framedSignal = madmom.audio.signal.FramedSignal(signal,
-                                        frame_size = 1024,
-                                        fps = 100)
+                                                  frame_size = 1024,
+                                                  fps = 100)
 5 stft = madmom.audio.stft.STFT(framedSignal)
 6 spectrogram = madmom.audio.spectrogram.Spectrogram(stft)
 7 plt.imshow(spectrogram.T, aspect='auto', origin='lower')
@@ -121,7 +129,7 @@ array([0.41, 0.98, 1.56, 2.12, 2.7 , 3.27, 3.84, 4.41, 4.99, 5.56, 6.13,
 
 ## Q n A
 1. Why class instance callable ?
-2.
+3. Why is it important to assign a correct <b>fps</b> while calling _DBNBeatTrackingProcessor_?
 
 ---
 
