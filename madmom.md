@@ -27,7 +27,7 @@ __Prerequisites:__
 
 __Pip Install:__
 ```console
- $ pip install modmom
+ $ pip install madmom
 ```
 
 If you installed package locally, the programs will be copied to a folder which might not be included in your `$PATH`, It's convenient to modify `~/.bashrc` or `~/.bash_profile` file
