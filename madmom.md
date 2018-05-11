@@ -57,7 +57,7 @@ If you installed package locally, the programs will be copied to a folder which 
 
 ## Beat Tracking in One Minute
 
-#### RNNBeatProcessor Prototype
+### RNNBeatProcessor Prototype
 ```python
 class madmom.features.beats.RNNBeatProcessor(
            post_processor = <function average_predictions>,
@@ -84,7 +84,7 @@ __Example__
 array([0.037, 0.024, 0.003, ... 0.005], dtype=float32)
 ```
 
-#### DBNBeatTrackingProcessor Prototype
+### DBNBeatTrackingProcessor Prototype
 ```python
 class madmom.features.beats.DBNBeatTrackingProcessor(
            min_bpm = 55.0,
