@@ -40,6 +40,7 @@ If you installed package locally, the programs will be copied to a folder which 
 <b><a href="https://drive.google.com/file/d/1iCqNZyuOthbWGlp_YVFMUMiCV6Xwucyf/view">madmom .whl file</a></b> (Big S/O to Sissi Lee)
 
 ```
+$ pip install --upgrade pip
 $ cd C:/directory/to/file
 $ pip install package-to-install.whl
 ```
