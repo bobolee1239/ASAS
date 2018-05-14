@@ -38,6 +38,7 @@ If you installed package locally, the programs will be copied to a folder which 
 
 <b><a href="https://download.microsoft.com/download/5/f/7/5f7acaeb-8363-451f-9425-68a90f98b238/visualcppbuildtools_full.exe?fixForIE=.exe.">Visual Studio</a></b> for Windows users. (Big S/O to Jenna Kang)
 
+<b><a href="https://drive.google.com/file/d/1iCqNZyuOthbWGlp_YVFMUMiCV6Xwucyf/view">madmom .whl file</a></b> (Big S/O to Sissi Lee)
 ---
 
 ## HW1 by madmom
