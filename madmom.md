@@ -33,7 +33,7 @@ __Pip Install:__
 If you installed package locally, the programs will be copied to a folder which might not be included in your `$PATH`, It's convenient to modify `~/.bashrc` or `~/.bash_profile` file
 
 ```console
- $ echo "export PATH=<path/to/scripts>:$PATH" > ~/.bashrc
+ $ echo "export PATH=<path/to/scripts>:$PATH" >> ~/.bashrc
 ```
 
 <b><a href="https://download.microsoft.com/download/5/f/7/5f7acaeb-8363-451f-9425-68a90f98b238/visualcppbuildtools_full.exe?fixForIE=.exe.">Visual Studio</a></b> for Windows users. (Big S/O to Jenna Kang)<br>
