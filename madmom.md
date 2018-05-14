@@ -23,7 +23,11 @@ __Prerequisites:__
 * cython >= 0.25
 * nose
 * pyaudio
-* ffmpeg
+* <a href="https://www.ffmpeg.org/download.html">ffmpeg</a> 
+   ```console
+   $ sudo apt-get install ffmpeg    # Ubuntu
+   $ brew install ffmpeg            # macOS
+   ```
 
 __Pip Install:__
 ```console
