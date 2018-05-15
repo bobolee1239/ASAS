@@ -1,8 +1,6 @@
 # [ASAS] madmom
 An audio signal processing library in Python with strong focus on MIR tasks.
 
-<<img alt="組長 陳玟詮" src="https://scontent-tpe1-1.xx.fbcdn.net/v/t34.18173-12/26754357_1995601330457755_1492089480_n.jpg?_nc_cat=0&_nc_eui2=AeG1Iy1gTI-NW0G926Cagf_rl3l66f-sp0sUgE_A0K5XbSDG7WIiQT0T56O-hxkTj6ksA39Ym42HIakgCCvCya_Pl7EcwnHD_FawTR4TGTfyxQ&oh=2e42efd04cf0c99d748c27fa860738e5&oe=5AF7B7D8" width=150 height = 200 align=right border=2.5 >>
-
 
 __Advantages:__
 <ul>
@@ -140,7 +138,6 @@ array([0.41, 0.98, 1.56, 2.12, 2.7 , 3.27, 3.84, 4.41, 4.99, 5.56, 6.13,
 ## Q n A
 1. Why class instance callable ?
 2. Why is it important to assign a correct <b>fps</b> while calling _DBNBeatTrackingProcessor_?
-3. Who is the man in the photo ?  
 
 ---
 
